@@ -8,5 +8,7 @@ document.getElementById("userForm").addEventListener("click",(e)=>{
     let phoneNumber = document.getElementById("phoneNumber").value.trim();
     let email = document.getElementById("email").value.trim();
 
-	alert(`First Name: ${firstName} Last Name: ${lastName} Phone Number: ${phoneNumber} Email ID: ${email}`);
+	let message = `First Name: ${firstName}\nLast Name: ${lastName}\nPhone Number: ${phoneNumber}\nEmail ID: ${email}`;
+
+    alert(message);
 })
